@@ -8,6 +8,10 @@
         android:id="@+id/ijkPlayer"
         android:layout_width="match_parent"
         android:layout_height="240dp" />
+    <SeekBar
+        android:id="@+id/seekbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/buttonPlay"
@@ -21,9 +25,6 @@
         android:layout_height="wrap_content"
         android:text="Pause" />
 
-    <Button
-        android:id="@+id/buttonSeek"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Seek" />
+
+
 </LinearLayout>
